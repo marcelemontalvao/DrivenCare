@@ -1,6 +1,6 @@
 import bcrypt from "bcrypt";
-import errors from "../errors/index.js";
-import patientsRepository from "../repositories/patientsRepository.js";
+import * as errors from "../errors/index.js";
+import * as patientsRepository from "../repositories/patientsRepository.js";
 import dotenv from "dotenv";
 import jwt from "jsonwebtoken";
 

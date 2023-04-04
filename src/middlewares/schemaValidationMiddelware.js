@@ -1,4 +1,4 @@
-import errors from "../errors/index.js";
+import * as errors from "../errors/index.js";
 
 export function validateSchema(schema) {
     return (req, res, next) => {

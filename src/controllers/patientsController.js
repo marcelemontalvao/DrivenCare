@@ -1,5 +1,5 @@
 import httpStatus from "http-status";
-import patientsService from "../services/patientsService.js";
+import * as patientsService from "../services/patientsService.js";
 
 async function createPatient(req, res, next) {
   const { name, email, password } = req.body;
